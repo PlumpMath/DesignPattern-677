@@ -23,6 +23,7 @@ public class Action {
     }
 
     public void method() {
+        //根据不同状态执行不同操作
         if (state.getValue().equals("state1")) {
             state.methodA();
         } else if (state.getValue().equals("state2")) {
